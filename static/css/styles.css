@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+h1{
+    text-align: center ;
+    margin-top: 5%;
+}
+.add-book {
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #007bff;
+}
+
+input[type="file"],
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style for the submit button (you may add a submit button later) */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:40%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.btns{
+    display: flex;
+    margin-right: 150px;
+}
+#addBtn{
+    background-color: #007bff;
+    color: #fff;
+    padding:8px 16px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: -15%;
+}
+
+#resetBtn{
+    background-color: gray;
+    color: #fff;
+    padding:8px 16px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
